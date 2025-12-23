@@ -1,0 +1,10 @@
+torch
+torchvision
+optimum[openvino]
+auto-gptq
+pypdfium2
+pandas
+openpyxl
+pillow
+transformers
+accelerate
