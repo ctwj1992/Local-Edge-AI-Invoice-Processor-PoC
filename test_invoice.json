@@ -1,0 +1,36 @@
+{
+    "is_tax_invoice": true,
+    "supplier_name": "Your Business Name",
+    "supplier_address": "5 Martin Pl, Sydney NSW 2000, Australia",
+    "gst_registration_number": "+61200000000",
+    "invoice_date": "2022-07-19",
+    "invoice_number": "2022435",
+    "customer_name": "Your Client",
+    "customer_address": "100 Harris St, Sydney NSW 2009, Australia",
+    "line_items": [
+        {
+            "description": "Services & products",
+            "quantity": 1,
+            "unit_price": 100.0,
+            "net_amount": 100.0,
+            "gst_rate": "10%",
+            "gst_amount": 10.0,
+            "gross_amount": 110.0
+        },
+        {
+            "description": "More services & products",
+            "quantity": 1,
+            "unit_price": 2000.0,
+            "net_amount": 2000.0,
+            "gst_rate": "20%",
+            "gst_amount": 400.0,
+            "gross_amount": 2400.0
+        }
+    ],
+    "invoice_totals": {
+        "total_excluding_gst": 2100.0,
+        "total_gst_amount": 510.0,
+        "total_including_gst": 2610.0
+    },
+    "_source_file": "test_invoice.png"
+}
