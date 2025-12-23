@@ -33,7 +33,7 @@ graph LR
 
 ---
 
-## 3. Optimisation Strategy (The “Secret Sauce”)
+## 3. Optimisation Strategy
 
 Running a 3B parameter Vision-Language Model on consumer hardware with shared system memory (RAM / VRAM) requires aggressive optimisation.
 
